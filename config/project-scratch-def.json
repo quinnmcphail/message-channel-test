@@ -1,5 +1,13 @@
 {
-  "orgName": "quinnmcphail company",
+  "orgName": "testMessageChannel",
   "edition": "Developer",
-  "features": []
+  "features": ["Communities"],
+  "settings": {
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    }
+  }
 }
