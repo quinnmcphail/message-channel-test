@@ -3,7 +3,7 @@
   "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
   "id" : "eb27b6bb-9962-46a3-8f7a-a9b5dcec7fc3",
   "label" : "Visualforce",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "Public",
   "routeType" : "custom-visualforce",
   "type" : "route",
   "urlPrefix" : "visualforce"

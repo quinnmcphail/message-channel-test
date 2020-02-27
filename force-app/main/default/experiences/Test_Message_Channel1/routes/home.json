@@ -3,7 +3,7 @@
   "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
   "id" : "004d3f39-851d-408c-9914-f50c9bbb8dd0",
   "label" : "Home",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "Public",
   "routeType" : "home",
   "type" : "route",
   "urlPrefix" : ""

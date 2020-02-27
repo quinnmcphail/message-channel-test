@@ -28,7 +28,7 @@
           "componentAttributes" : {
             "height" : 300,
             "pageName" : "vfMessageServicePub",
-            "recordId" : "{!recordId}"
+            "recordId" : ""
           },
           "componentName" : "forceCommunity:visualforcePage",
           "id" : "22509cf4-fb78-4f61-a45c-647aa3075b54",
@@ -39,7 +39,7 @@
           "componentAttributes" : {
             "height" : 300,
             "pageName" : "vfMessageServiceSub",
-            "recordId" : "{!recordId}"
+            "recordId" : ""
           },
           "componentName" : "forceCommunity:visualforcePage",
           "id" : "ba3dc974-84f1-4ea3-bcce-f5e212cb3a59",

@@ -6,21 +6,21 @@
     <navigationMenuItem>
         <label>Aura</label>
         <position>1</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/aura</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
         <label>LWC</label>
         <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/lwc</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
         <label>Visualforce</label>
         <position>3</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/visualforce</target>
         <type>InternalLink</type>
     </navigationMenuItem>
