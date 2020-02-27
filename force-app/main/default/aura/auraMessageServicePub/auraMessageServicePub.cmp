@@ -1,3 +1,6 @@
-<aura:component>
-
-</aura:component>	
+<aura:component
+  implements="forceCommunity:availableForAllPageTypes"
+  access="global"
+>
+  <h1>AuraPub</h1>
+</aura:component>

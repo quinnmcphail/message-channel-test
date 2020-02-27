@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "b0e2345b-94f7-4970-a5ad-f7716530481f",
+  "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
+  "id" : "36aa423f-d37c-4748-b2e1-2fa087430fbb",
+  "label" : "Aura",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-aura",
+  "type" : "route",
+  "urlPrefix" : "aura"
+}

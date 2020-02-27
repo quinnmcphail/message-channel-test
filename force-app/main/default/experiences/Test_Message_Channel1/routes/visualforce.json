@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "230659a7-c7be-4851-ad48-d6537c8c08bb",
+  "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
+  "id" : "eb27b6bb-9962-46a3-8f7a-a9b5dcec7fc3",
+  "label" : "Visualforce",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-visualforce",
+  "type" : "route",
+  "urlPrefix" : "visualforce"
+}

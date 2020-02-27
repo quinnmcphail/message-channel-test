@@ -1,0 +1,82 @@
+{
+  "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "230659a7-c7be-4851-ad48-d6537c8c08bb",
+  "label" : "Visualforce",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a102daef-ae13-4ff6-a7ff-2dd7560a4451",
+          "columns" : [ {
+            "UUID" : "d79c1554-8b9c-41ab-b70d-d8993cefbf87",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a102daef-ae13-4ff6-a7ff-2dd7560a4451",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "height" : 300,
+            "pageName" : "vfMessageServicePub",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "22509cf4-fb78-4f61-a45c-647aa3075b54",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : 300,
+            "pageName" : "vfMessageServiceSub",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "ba3dc974-84f1-4ea3-bcce-f5e212cb3a59",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d79c1554-8b9c-41ab-b70d-d8993cefbf87",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4994139-9c47-4914-a0b9-70da3baf564f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Visualforce"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a49f780-4465-4701-a73b-f994acd65675",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4943c087-232a-48a3-ae07-b1dfd02c62e7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-visualforce"
+}

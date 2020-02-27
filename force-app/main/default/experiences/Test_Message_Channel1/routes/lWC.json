@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "a530baa7-df2c-4031-9703-a1528ff52095",
+  "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
+  "id" : "78c17e7f-0248-4dba-aa6b-965d64079bfb",
+  "label" : "LWC",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-lwc",
+  "type" : "route",
+  "urlPrefix" : "lwc"
+}

@@ -1,0 +1,74 @@
+{
+  "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "b0e2345b-94f7-4970-a5ad-f7716530481f",
+  "label" : "Aura",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d6eb900a-99c0-4cd5-9c09-112b154e5eac",
+          "columns" : [ {
+            "UUID" : "1547409a-a44a-4937-81d7-10617da97d89",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d6eb900a-99c0-4cd5-9c09-112b154e5eac",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:auraMessageServicePub",
+          "id" : "7c200d1f-2188-4a7f-8b99-ab7a2f0d07b5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:auraMessageServiceSub",
+          "id" : "254f7698-ba44-4948-a6a4-2eb2e6cc4a8b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1547409a-a44a-4937-81d7-10617da97d89",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e2af8e47-9a35-4ff9-b916-4a29a24db807",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Aura"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "84e0ded3-f008-4bd1-9209-b62629510c9f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "703a2ff5-bad5-44a5-a3e0-88340251bb5d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-aura"
+}

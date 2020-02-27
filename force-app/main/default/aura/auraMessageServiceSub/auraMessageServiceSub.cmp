@@ -1,3 +1,6 @@
-<aura:component>
-
-</aura:component>	
+<aura:component
+  implements="forceCommunity:availableForAllPageTypes"
+  access="global"
+>
+  <h1>AuraSub</h1>
+</aura:component>

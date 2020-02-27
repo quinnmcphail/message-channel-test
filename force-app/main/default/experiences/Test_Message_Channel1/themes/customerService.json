@@ -101,8 +101,8 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "NavigationMenuEditorRefresh" : "",
-          "hideAppLauncher" : false,
+          "NavigationMenuEditorRefresh" : "Default_Navigation",
+          "hideAppLauncher" : true,
           "hideHomeText" : false
         },
         "componentName" : "forceCommunity:globalNavigation",

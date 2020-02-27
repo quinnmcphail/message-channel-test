@@ -1,170 +1,25 @@
 {
   "appPageId" : "ac559c25-1161-420a-a7d7-95318589d439",
-  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "componentName" : "siteforce:sldsOneColLayout",
   "id" : "f4f4ba9b-0535-4d7b-bfbf-ed4f74b96219",
   "label" : "Home",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "bannerText" : "A place where you can easily find solutions and ask questions",
-        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "pageType" : "",
-        "showSubTopics" : true,
-        "title" : "Welcome!",
-        "uniqueNameOrId" : ""
-      },
-      "componentName" : "forceCommunity:headline",
-      "id" : "c0f05de3-bf1b-4df6-97ad-b35ab9831764",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "4c9a5f91-3a12-4f91-a773-1aa2d73e3a53",
     "regionName" : "header",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "buttonAlignment" : "center",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "",
-        "buttonBorderColor" : "",
-        "buttonMaxWidth" : 100,
-        "buttonRadius" : 0,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "",
-        "confirmationMessage" : "Got it!",
-        "followUpPromptLabel" : "Can we close your question?",
-        "isAskFollowPromptEnabled" : true,
-        "isIncludeArticlesEnabled" : false,
-        "isIncludeDiscussionsEnabled" : true,
-        "isInitialSatisfactionPromptEnabled" : true,
-        "isPublisherDeflectionEnabled" : true,
-        "label" : "Ask a Question",
-        "maxSuggestions" : 5,
-        "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : false,
-        "showTopics" : true,
-        "uneditableTopics" : false
-      },
-      "componentName" : "forceCommunity:askCommunity",
-      "id" : "7bf6858a-dba4-4ca2-aa32-2ae304c95c0b",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "5cecce8d-ea40-473d-bde2-50cb43b2434c",
     "regionName" : "featured",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "defaultSortOrderCompactFeed" : "Relevance",
-        "defaultSortOrderFullFeed" : "Relevance",
-        "discussionTabLabel" : "Discussions",
-        "featuredTabLabel" : "Featured",
-        "maxWidth" : 100,
-        "myFeedTabLabel" : "My Feed",
-        "overlayColor" : "rgba(0,0,0,0.4)",
-        "overlayHoverColor" : "",
-        "radius" : 0,
-        "showCompactFeedInDiscussion" : true,
-        "textAlignment" : "center",
-        "textBgColor" : "rgba(0,0,0,0)",
-        "textBgHoverColor" : "rgba(0,0,0,0)",
-        "textColor" : "",
-        "textHoverColor" : "",
-        "textPosition" : "center center"
-      },
-      "componentName" : "forceCommunity:homeTabs",
-      "id" : "0757ecb0-e3f2-4f29-a5e9-a230782917c8",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "499dd6ce-0ee3-4697-b164-abb34eb19e47",
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "channel" : "DefaultChannel",
-        "title" : ""
-      },
-      "componentName" : "forceCommunity:recommendations",
-      "id" : "2c5ab772-d14d-4390-8612-2cc76a0d4f52",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "display" : "LEVELS_POINTS",
-        "excludeInternalUsers" : false,
-        "knowledgeLabel" : "Knows about",
-        "numberOfUsers" : 5,
-        "showContextUser" : false,
-        "showTooltip" : false,
-        "showUserRank" : false,
-        "title" : "Leaderboard",
-        "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
-      },
-      "componentName" : "forceCommunity:reputationLeaderboard42",
-      "id" : "69560d7e-f94a-457b-963a-ebe6250824ab",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "numberOfTopics" : 5,
-        "showTopicsMetric" : true,
-        "title" : "Trending Topics"
-      },
-      "componentName" : "forceCommunity:trendingTopics",
-      "id" : "f539b49d-eadc-4782-8df3-5e0ba6849cdb",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "1c47b3e7-4539-41d8-bae0-29aebf7f4ee1",
     "regionName" : "sidebar",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "askCommunityLabel" : "Ask a Question",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "",
-        "buttonBorderColor" : "",
-        "buttonRadius" : 0,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "",
-        "buttonTwoBgColor" : "",
-        "buttonTwoBgHoverColor" : "",
-        "buttonTwoBorderColor" : "",
-        "buttonTwoRadius" : 0,
-        "buttonTwoTextColor" : "",
-        "buttonTwoTextHoverColor" : "",
-        "confirmationMessage" : "Got it!",
-        "contactSupportLabel" : "Contact Support",
-        "followUpPromptLabel" : "Can we close your question?",
-        "headerLabel" : "Don't see what you're looking for?",
-        "isAskFollowPromptEnabled" : true,
-        "isIncludeArticlesEnabled" : false,
-        "isIncludeDiscussionsEnabled" : true,
-        "isInitialSatisfactionPromptEnabled" : true,
-        "isPublisherDeflectionEnabled" : true,
-        "maxSuggestions" : 5,
-        "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : false,
-        "showTopics" : true
-      },
-      "componentName" : "siteforce:napiliFooter",
-      "id" : "ec5738d9-fc1c-4f11-9f53-310d2d9e4476",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "d070d1b0-223b-4b28-bc02-440a4a0383d3",
     "regionName" : "footer",
     "type" : "region"
