@@ -2,5 +2,13 @@
   implements="forceCommunity:availableForAllPageTypes"
   access="global"
 >
+  <lightning:messageChannel
+    type="TestMessageChannel__c"
+    aura:id="TestMessageChannel"
+    onMessage="{!c.onMessage}"
+    scope="APPLICATION"
+  />
+  <aura:attribute name="message" type="String" />
   <h1>AuraSub</h1>
+  <lightning:formattedText value="{!v.message}" />
 </aura:component>
