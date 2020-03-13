@@ -12,6 +12,32 @@
     "regionName" : "featured",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:lwcMessageServicePub",
+      "id" : "a746e2a8-69a1-4cb4-8062-7f1a44956a80",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:auraMessageServiceSub",
+      "id" : "63d05efe-0c09-4737-a171-a460097175be",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : 300,
+        "pageName" : "vfMessageServiceSub",
+        "recordId" : ""
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "8d2ba2b4-88a0-44db-9af7-c40b06891d95",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "499dd6ce-0ee3-4697-b164-abb34eb19e47",
     "regionName" : "content",
     "type" : "region"
